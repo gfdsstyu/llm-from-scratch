@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models / data (대용량 가중치·데이터셋 커밋 방지)
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.gguf
+data/
+checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
