@@ -1,0 +1,4 @@
+# Step 2 이상(PyTorch 데이터 파이프라인)에 필요.
+# Step 1(src/step01_tokenization.py)은 표준 라이브러리만으로 실행됨.
+torch>=2.0
+tiktoken>=0.5
